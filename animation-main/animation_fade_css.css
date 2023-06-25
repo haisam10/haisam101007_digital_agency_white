@@ -1,0 +1,21 @@
+/*<div class="cs-ani-fd-left,right"></div>*/
+.cs-ani-fd-left {
+  position: relative;
+  animation: mymove1 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes mymove1 {
+  from {right: 250px;}
+  to {right: 0px;}
+}
+
+
+.cs-ani-fd-right {
+  position: relative;
+  animation: mymove2 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes mymove2 {
+  from {left: 250px;}
+  to {left: 0px;}
+}

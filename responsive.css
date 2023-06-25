@@ -1,0 +1,86 @@
+@media screen and (max-width: 420px) {
+    nav {
+        display: none;
+    }
+    .hero-area {
+        flex-direction: column;
+        height: 100%;
+    }
+    .hero-area img {
+        height: 100%;
+    }
+    .Concept,.service1,.service2,.work-img ,.wwr,.testimonial {
+        flex-direction: column;
+    }
+    .section-title i {
+        font-size: 40px;
+    }
+    .section-title h1{
+        font-size: 25px;
+    }
+    .cta-button {
+        margin-top: 60px;
+    }footer {
+        font-size: 12px;
+    }
+    .wwr-1 {
+        text-align: center;
+    }
+    .service-area p {
+        text-align: center;
+    }
+    .service-area i {
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+    }
+    .service-area h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .hero-area {
+        flex-direction: column;
+    }
+    .Concept {
+        flex-direction: column;
+    }
+    i.fa-brands.fa-buromobelexperte,
+    i.fa-sharp.fa-solid.fa-lightbulb,
+    i.fa-brands.fa-fort-awesome {
+        font-size: 70px;
+    }
+    .service1, .service2 {
+        display: var(--flex);
+        flex-direction: column;
+    }
+    .work-img {
+        flex-direction: column;
+    }
+    .work-img img {
+        margin: 10px 35px;
+    }
+    .wwr {
+        flex-direction: column;
+    }
+    .testimonial {
+        flex-direction: column;
+    }
+    .testimonial-1 p {
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 40px;
+    }
+    .section-title i {
+        font-size: 40px;
+    }
+    .section-title h1 {
+        font-size: 30px;
+    }
+
+}
